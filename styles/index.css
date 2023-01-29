@@ -1,0 +1,111 @@
+body {
+  background-image: url("../assets/imagenFondo.jpg");
+  background-size: cover;
+}
+
+#row-elements {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+#container-welcome {
+  height: 500px;
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#title-welcome {
+  margin-top: 4em;
+  padding: 10px;
+  padding-left: 30px;
+  color: #0b4553;
+}
+
+#text-welcome {
+  color: #0b4553;
+}
+
+#form {
+  height: 500px;
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#options {
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
+#btn-sign-in {
+  background-color: #0c88aa;
+}
+
+#btn-sign-up {
+  background-color: #0c88aa;
+}
+
+#form-sign-in {
+  margin-top: 2em;
+}
+
+#card-sign-in {
+  height: 200px;
+  box-shadow: 5px 10px 5px #888888;
+  margin-top: 3em;
+}
+
+#container-sign-in {
+  margin: auto;
+}
+
+#title-sign-in {
+  color: #0b4553;
+  margin-bottom: 1.5em;
+}
+
+#input-correo {
+  width: 100%;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+#input-contraseña {
+  width: 100%;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+}
+
+#boton-sign-in {
+  width: 50%;
+  margin-top: 10px;
+  background-color: #0b4553;
+  border: none;
+}
+
+#option-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#link-sign-in {
+  color: #0b4553;
+}
+
+#link-password{
+  text-align: center;
+}
