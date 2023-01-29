@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Sign In</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,7 +27,7 @@
 
         <div id="form-sign-in">
           <h1 class="text-center" id="title-sign-in">Sign In</h1>
-          <form action="" class="card">
+          <form action="" method="POST" class="card">
             <div class="card-body" id="card-sign-in">
               <div class="form-group">
                 <div class="row" id="container-sign-in">

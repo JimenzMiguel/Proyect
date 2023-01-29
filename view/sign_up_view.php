@@ -18,7 +18,8 @@
     <div class="row" id="row-elements">
       <div id="container-welcome" class="col-md-5">
         <h1 id="title-welcome">Welcome to Stoke</h1>
-        <p id="text-welcome">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ut itaque unde, eum quibusdam assumenda
+        <p id="text-welcome">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ut itaque unde, eum
+          quibusdam assumenda
           numquam? Ad eligendi, numquam maxime quibusdam quia maiores nemo! Ratione iusto rem reiciendis eligendi earum?
         </p>
       </div>
@@ -26,19 +27,18 @@
 
         <div id="form-sign-up">
           <h1 class="text-center" id="title-sign-up">Sign Up</h1>
-          <form action="" class="card">
+          <form  class="card" id="formulario-registro" enctype="multipart/form-data">
             <div class="card-body" id="card-sign-up">
               <div class="form-group">
                 <div class="row" id="container-sign-up">
-                  <input type="text" class="form-control" placeholder="Nombres" id="input-nombre">
-                  <input type="text" class="form-control" placeholder="Primer apellido" id="input-primer-apellido">
-                  <input type="text" class="form-control" placeholder="Segundo apellido" id="input-segundo-apellido">
-                  <input type="text" class="form-control" placeholder="Nombre de usuario" id="input-nombre-usuario">
-                  <input type="email" class="form-control" placeholder="Correo Electronico" id="input-correo">
-                  <input type="password" class="form-control" placeholder="Contraseña" id="input-contraseña">
+                  <input type="text" class="form-control" placeholder="Nombres" id="input-nombre" name="name_user">
+                  <input type="text" class="form-control" placeholder="Primer apellido" id="input-primer-apellido" name="firts_lastname_user">
+                  <input type="text" class="form-control" placeholder="Segundo apellido" id="input-segundo-apellido" name="second_lastname_user">
+                  <input type="text" class="form-control" placeholder="Nombre de usuario" id="input-nombre-usuario" name="username_user">
+                  <input type="email" class="form-control" placeholder="Correo Electronico" id="input-correo" name="email_user">
+                  <input type="password" class="form-control" placeholder="Contraseña" id="input-contraseña" name="password_user">
                   <input type="password" class="form-control" placeholder="Confirmar contraseña"
-                    id="input-confirmar-contraseña">
-                  <input type="file" class="form-control" id="input-avatar">
+                    id="input-confirmar-contraseña" name="confirm_password_user">
                 </div>
               </div>
               <div id="btn">
@@ -48,14 +48,16 @@
           </form>
         </div>
         <div id="option-form">
-          <span class="text-center" id="link-sign-in">¡ Ya Tengo Cuenta ! <a href="../index.php">Iniciar Sesion</a></span>
+          <span class="text-center" id="link-sign-in">¡ Ya Tengo Cuenta ! <a href="../index.php">Iniciar
+              Sesion</a></span>
         </div>
       </div>
     </div>
   </main>
- /* Una biblioteca que nos permite usar jQuery. */
-<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+  <!-- Una biblioteca que nos permite usar jQuery. -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="../js/sign_up.js"></script>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
