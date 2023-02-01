@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <title>Sign Up</title>
@@ -27,16 +27,21 @@
 
         <div id="form-sign-up">
           <h1 class="text-center" id="title-sign-up">Sign Up</h1>
-          <form  class="card" id="formulario-registro" enctype="multipart/form-data">
+          <form class="card" id="formulario-registro" enctype="multipart/form-data">
             <div class="card-body" id="card-sign-up">
               <div class="form-group">
                 <div class="row" id="container-sign-up">
                   <input type="text" class="form-control" placeholder="Nombres" id="input-nombre" name="name_user">
-                  <input type="text" class="form-control" placeholder="Primer apellido" id="input-primer-apellido" name="firts_lastname_user">
-                  <input type="text" class="form-control" placeholder="Segundo apellido" id="input-segundo-apellido" name="second_lastname_user">
-                  <input type="text" class="form-control" placeholder="Nombre de usuario" id="input-nombre-usuario" name="username_user">
-                  <input type="email" class="form-control" placeholder="Correo Electronico" id="input-correo" name="email_user">
-                  <input type="password" class="form-control" placeholder="Contraseña" id="input-contraseña" name="password_user">
+                  <input type="text" class="form-control" placeholder="Primer apellido" id="input-primer-apellido"
+                    name="firts_lastname_user">
+                  <input type="text" class="form-control" placeholder="Segundo apellido" id="input-segundo-apellido"
+                    name="second_lastname_user">
+                  <input type="text" class="form-control" placeholder="Nombre de usuario" id="input-nombre-usuario"
+                    name="username_user">
+                  <input type="email" class="form-control" placeholder="Correo Electronico" id="input-correo"
+                    name="email_user">
+                  <input type="password" class="form-control" placeholder="Contraseña" id="input-contraseña"
+                    name="password_user">
                   <input type="password" class="form-control" placeholder="Confirmar contraseña"
                     id="input-confirmar-contraseña" name="confirm_password_user">
                 </div>
